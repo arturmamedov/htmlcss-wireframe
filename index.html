@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML e CSS selettori</title>
+
+
+    <style>
+        * {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+        .wrapper {
+            width: 320px;
+            background-color: aqua;
+            margin: 0 auto 0 auto;
+        }
+
+        .article {
+            width: 150px;
+            background-color: #f00;
+
+            padding: 10px;
+            border: 2px solid pink;
+
+            margin: 0 auto 40px;
+        }
+
+        .special {}
+
+        .special h3 {
+            font-size: 4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="article special">
+            <header>
+                <h3>Titolo</h3>
+            </header>
+
+            <footer>
+                <p>Copyright</p>
+            </footer>
+        </div>
+
+
+        <article class="article">
+            <header>
+                <h3>Titolo</h3>
+            </header>
+
+            <footer>
+                <p>Copyright</p>
+            </footer>
+        </article>
+    </div>
+</body>
+
+</html>
